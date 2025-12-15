@@ -15,8 +15,7 @@
 
     <modules>
         <module>common-types</module>
-        <module>common-auth-core</module>
-        <module>common-auth-spring-boot-starter</module>
+        <module>common-auth</module>
     </modules>
 
     <repositories>
@@ -34,7 +33,7 @@
     </repositories>
 
     <properties>
-        <revision>1.0.8</revision>
+        <revision>1.0.9</revision>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
@@ -69,17 +68,7 @@
             </dependency>
             <dependency>
                 <groupId>com.pms</groupId>
-                <artifactId>common-auth-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.pms</groupId>
-                <artifactId>common-auth-spring-boot-starter</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.pms</groupId>
-                <artifactId>common-api</artifactId>
+                <artifactId>common-auth</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

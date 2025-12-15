@@ -11,10 +11,10 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>common-auth-core</artifactId>
+    <artifactId>common-auth</artifactId>
     <packaging>jar</packaging>
 
-    <name>common-auth-core</name>
+    <name>common-auth</name>
     <description>Common authentication utilities for PressureMonitorSys microservices</description>
 
     <dependencies>
@@ -52,7 +52,7 @@
     </dependencies>
 
     <build>
-        <finalName>common-auth-core</finalName>
+        <finalName>common-auth</finalName>
     </build>
 
 </project>

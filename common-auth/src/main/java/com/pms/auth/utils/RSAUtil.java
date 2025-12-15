@@ -1,4 +1,4 @@
-package com.pms.auth.core.utils;
+package com.pms.auth.utils;
 
 import com.pms.types.Constants;
 

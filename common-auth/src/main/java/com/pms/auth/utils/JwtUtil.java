@@ -1,6 +1,6 @@
-package com.pms.auth.core.utils;
+package com.pms.auth.utils;
 
-import com.pms.auth.core.model.UserAggregate;
+import com.pms.auth.model.UserAggregate;
 import com.pms.types.AppException;
 import com.pms.types.Constants;
 import com.pms.types.ResponseCode;

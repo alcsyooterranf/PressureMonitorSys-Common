@@ -23,7 +23,9 @@ public final class Constants {
 	public static final String ISS = "PressureMonitorSys-auth";
 	public static final String USER_ID = "userId";
 	public static final String USER_NAME = "userName";
+	public static final String ROLE_NAME = "roleName";
 	public static final String AUTHORITIES = "authorities";
+	public static final String PERMISSIONS = "permissions";
 	
 	// BIZ
 	public static final String DEFAULT_PASSWORD = "123456";
