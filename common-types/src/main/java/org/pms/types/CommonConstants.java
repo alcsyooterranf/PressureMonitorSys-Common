@@ -1,9 +1,9 @@
-package com.pms.types;
+package org.pms.types;
 
 /**
  * @author alcsyooterranf
  */
-public final class Constants {
+public final class CommonConstants {
 	
 	// TokenUtil
 	//private static final Long ACCESS_EXPIRATION = 60 * 60 * 6L; // 6h
@@ -34,10 +34,10 @@ public final class Constants {
 	public static final String SECURITY_CONTEXT_HEADER = "X-Security-Context";
 	public static final String TOKEN_HEADER = "Authorization";
 	public static final String TOKEN_PREFIX = "Bearer";
-	
 	// Database
 	// id = 3, name = guest, r_role
 	public static final Long DEFAULT_ROLE_ID = 3L;
+
 	
 }
 

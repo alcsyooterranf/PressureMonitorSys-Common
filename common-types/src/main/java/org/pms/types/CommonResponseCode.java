@@ -1,4 +1,4 @@
-package com.pms.types;
+package org.pms.types;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public enum ResponseCode {
+public enum CommonResponseCode {
 	
 	// 基本异常
 	SUCCESS("0000", "成功"),
